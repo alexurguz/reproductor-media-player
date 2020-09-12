@@ -1,0 +1,26 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "description": "Media player with best practices",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html exercises/index.html exercises/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexurguz/reproductor-media-player.git"
+  },
+  "author": "Johnatan Alexis Urbano Guzmán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexurguz/reproductor-media-player/issues"
+  },
+  "homepage": "https://github.com/alexurguz/reproductor-media-player#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
